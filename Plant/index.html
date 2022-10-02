@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <section id="header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#home">
+                  <img src="img/logo111.png" class="img-fluid" alt="logo-img Pampa Store">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-align-justify navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About us </a>
+                  </li>
+                  <li class="nav-item">
+                    <!-- <a class="nav-link" href="#WhatWeDo">What We Do</a> -->
+                    <div class="dropdown ">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            What We Do>
+                        </a>
+                      
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><a class="dropdown-item" href="#savetree" >Save Trees</a></li>
+                          <li><a class="dropdown-item" href="#treeplantation">Tree plantation</a></li>
+                          <li><a class="dropdown-item" href="#awarness">Awareness</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#video">Videos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#activity">Activity</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#JoinUs" data-bs-toggle="modal" data-bs-target="#exampleModal" >Join Us</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+<!-- Home Section Slides  -->
+<section id="home" class="home pt-5 overflow-hidden">
+    <!-- slide Starts here  -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="home-banner home-banner-1">
+                <div class="home-banner-text">
+                    <h1>Save Tree</h1>
+                    <h2>One Life One tree.</h2>
+                    <a href="#" class="btn btn-danger text-uppercase mt-4"> Learn More</a>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="home-banner home-banner-2">
+                <div class="home-banner-text">
+                    <h1>Save Life</h1>
+                    <h2>Kids living in places <br> with more trees have a lower <br> chance of asthma.</h2>
+                    <a href="#" class="btn btn-danger text-uppercase mt-4"> Learn More</a>
+                </div>
+            </div>
+          </div>
+          
+        
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+              <span class="ti-angle-left slider-icon"></span>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true">
+            <span class="ti-angle-right slider-icon"></span>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Join Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="#">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." >
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Join Us">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Join Us</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- slide ends here..  -->
+</section>
+
+<div id="con22">
+  <!-- primary -->
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<!-- secondary -->
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<!-- success -->
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<!-- danger -->
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<!-- warning -->
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<!-- info -->
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<!-- info -->
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<!-- dark -->
+<div class="spinner-grow text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+</div>
+<!-- Home section ends here  -->
+<section class="about" id="about">
+  <div class="max-width">
+    <h2 class="title">About us</h2>
+    <div class="about-content">
+      <div class="column left">
+        <img src="img/logo1.png" class="img-fluid" alt="">
+      </div>
+      <div class="column right">
+            <div class="text">Saving Trees Around You<span class="typing-2"></span></div>
+            <p>Over the years evolution human invented thousands on new things, but his greed to become superpower put others on the brink. Wild animals are one of them. These species can’t fight back because of their low mind power. We humans searching life on “Mars” planet, but the one we had totally destroyed by us. Who gurantees that Mars will remain intact from Human. Its time to speak out and Save Earth in turn Save Human life.
+            </p>
+            <a href="#JoinUs" data-bs-toggle="modal" data-bs-target="#exampleModal" >Join Us</a>
+        </div>
+    </div>
+</div>
+</section>
+<section class="about" id="video">
+  <div class="max-width">
+    <h2 class="title title2">Videos</h2>
+    <div class="about-content">
+     
+      <div class="column right">
+            <div class="text"> <h1 id="firsth1">Video_content Text </h1></div>
+            <p>Over the years evolution human invented thousands on new things, but his greed to become superpower put others on the brink. Wild animals are one of them. These species can’t fight back because of their low mind power. We humans searching life on “Mars” planet, but the one we had totally destroyed by us. Who gurantees that Mars will remain intact from Human. Its time to speak out and Save Earth in turn Save Human life.
+            </p>
+            <a href="#JoinUs" data-bs-toggle="modal" data-bs-target="#exampleModal" >Join Us</a>
+        </div>
+        <div class="column left" id="divvideo">
+          <video  controls loop class="video-fluid" id="my_Video2">
+            <source src="video/video1.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+    </div>
+</div>
+</section>
+<!-- 
+<!-- <section class="video" id="video">
+<div class="max-widthnewforvideo">    -->
+  <!-- <h2 class="title">Video</h2> -->
+  <!-- <div class="video_content video-fluid">
+    <h1 id="firsth1">Video_content Text </h1>
+    <p placeholder >Lorem ipsum, dolor sit amet uaerat magni,oloremque vero nde tempora repellendus iste voluptatibus natus accusamus laborum iusto quaerat at minima id quasi minus, rem eum commodi illo pariatur? Quisquam enim aliquid impedit saepe sunt dolorum? Repellendus facere aliquam repudiandae delectus suscipit nemo ad dolore atque distinctio! Exercitationem, ullam. Architecto molestias similique deleniti veritatis veniam, cumque in!</p>
+    <a id="ajoin" href="#JoinUs" data-bs-toggle="modal" data-bs-target="#exampleModal" >Join Us</a>
+  </div>
+  <video  controls loop id="my_Video1">
+    <source src="video/video1.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+</div> -->
+
+  <!-- <div class="content1">
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
+    <button id="my_Btn1" onclick="myFunction()">Pause</button>
+  </div> -->
+
+<!-- </section> --> 
+
+<!-- Activity section starts here  -->
+<section class="activity" id="activity">
+
+</section>
+
+
+
+
+<!-- Scripts Starts Here      -->
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method = "post" action = "submit.php">
+        <label for="email" class="sm-margin sm-padding" >Email: </label><br>
+        <input type="text" class="sm-margin sm-padding" id="email" name="email"/> <br>
+        <label for="password" class="sm-margin sm-padding">Password:</label> <br>
+        <input type="password" class="sm-margin sm-padding" id="password" name="password"/> <br/>
+        <input type="radio" name="gender" class="sm-margin sm-padding" id="male" value="male"/> 
+        <label for="male" class="sm-margin sm-padding">Male</label>
+        <input type="radio" name="gender" class="sm-margin sm-padding" id="female"  value="female"/> 
+        <label for="female" class="sm-margin sm-padding">Female</label>
+        <input type="radio" name="gender" class="sm-margin sm-padding" id="other"  value="other"/>  
+        <label for="other" class="sm-margin sm-padding">Other</label><br/>
+     
+        <input type="checkbox" name="interest" class="sm-margin sm-padding" id="cricket" value="cricket"/> <label for="cricket">Cricket</label>
+        <input type="checkbox" name="interest" class="sm-margin sm-padding" id="football" value="football"/> <label for="football">Football</label> <br/>
+        <input type="checkbox" name="interest" class="sm-margin sm-padding" id="basketball" value="basketball"/><label for="basketball">Basketball</label>  <br/>
+        <input type="checkbox" name="interest" class="sm-margin sm-padding" id="chess" value="chess"/> <label for="chess">Chess</label> <br/>
+     
+        <select class="sm-margin sm-padding" name="city">
+            <option> Kolkata </option>
+            <option> Delhi </option>
+            <option> Bangalore </option>
+            <option> Mumbai </option>
+            <option> Outstation</option>
+        </select> <br/>
+     
+        <textarea class="sm-margin sm-padding" name="address" rows="6" cols="50">
+            Write your address...
+        </textarea> <br/>
+     
+        <input  type="submit" class="sm-margin sm-padding" name="submit" value="Submit"/>    
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

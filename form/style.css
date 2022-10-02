@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+}
+body{
+    height: 100vh;
+    background-color: blueviolet;
+
+}
+form{
+    height: 100%;
+    width: 412px;
+    padding: 20px;
+    margin: 3% auto;
+}
+input[type=text],
+input[type=password]{
+    width: 408px;
+    border-radius: 5px;
+    border:1px solid red ;
+}
+label {
+    text-align: right;
+ 
+}
+   
+br {
+    clear: left;
+}
+.sm-margin{
+    margin-bottom: 14px;
+}
+.sm-padding{
+    padding: 7px;
+}
+textarea{
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(16, 6, 51);
+}
+input[type=submit]{
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(16, 6, 51);
+}
+select{
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid rgb(16, 6, 51);
+}
+select option{
+    background: #8a2be2;
+}

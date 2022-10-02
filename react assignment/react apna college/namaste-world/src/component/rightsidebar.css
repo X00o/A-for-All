@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Passion+One&display=swap');
+.rightsidecontainer{
+    position: absolute;
+    background: #e5e5e554;
+    left: 320px;
+    top: 87px;
+    right: 10px;
+    width: 1104px;
+    height: 854px; 
+    background: #FFFFFF;
+    border: 1px solid #E2E5EB;
+    border-radius: 10px;
+}
+.heading{
+
+}
+.title{
+position: absolute;
+width: 95px;
+height: 24px;
+left: 312px;
+top: 40px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+
+color: #242424;
+}
+.btnn{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 123px;
+    height: 42px;
+    left: 1293px;
+    top: 40px;
+    color: #FFFFFF;
+    font-size: 19px;
+    background: #2CA4D8;
+    box-shadow: 0px 2px 20px rgba(56, 181, 235, 0.2);
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+.btnn:hover{
+   
+    font-size: 19px;
+    color:  #2CA4D8;
+    background:#FFFFFF;
+    border: 1px solid  #2CA4D8;
+}
+.section{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    background: #F1F4F8;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.col-2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #242424;
+}
+
+.footer p{
+    position: absolute;
+    width: 133px;
+    height: 16px;
+    left: 312px;
+    top: 984px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    color: #242424;
+}
+
+
+/* modal css start  */
+
+/* modal css end */
